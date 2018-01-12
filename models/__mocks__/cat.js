@@ -6,6 +6,7 @@ module.exports = function(sequelize, DataTypes){
   return dbMock.define('Cat', {
     name: 'Paws',
     age: 4,
-    enjoys: 'Long walks on the beach.'
+    city: 'Long walks on the beach.',
+    bio: 'Loves to play.'
   })
 }
